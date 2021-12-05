@@ -1,6 +1,5 @@
 with open('input.txt', 'r') as f:
     depths = f.read().splitlines()
-
 depths = list(map(int, depths))
 
 increased = 0
